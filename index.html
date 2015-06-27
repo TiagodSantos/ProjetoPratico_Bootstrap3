@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Devmedia - Projeto Prático</title>
       
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>  
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
       
@@ -15,40 +16,343 @@
     <![endif]-->
       
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
       <!-- Menu da aplicação -->
-      
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#page-top">Devmedia</a>
+              </div>
+              
+              
+              <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#page-top"></a></li>
+                        <li>
+                            <a class="" href="#servicos">Serviços</a>
+                        </li>
+                        <li>
+                            <a class="" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="" href="#quemsomos">Quem Somos</a>
+                        </li>
+                        <li>
+                            <a class="" href="#localizacao">Localização</a>
+                        </li>
+                        <li>
+                            <a class="" href="#contato">Contatos</a>
+                        </li>
+                    </ul>
+              </div>
+          </div>
+      </nav>
       <!-- // Menu da aplicação -->
       
       <!-- slider da aplicação -->
+      <div class="divslider">
+          <div class="container">
+                  <div class="col-xs-12">
+                      <div id="sliderprincipal" class="carousel slide" data-ride="carousel">
+                          
+                          <ol class="carousel-indicators">
+                              <li data-target="#sliderprincipal" data-slide-to="0" class="active"></li>
+                              <li data-target="#sliderprincipal" data-slide-to="1"></li>
+                              <li data-target="#sliderprincipal" data-slide-to="2"></li>
+                          </ol>
+                          
+                          <div class="carousel-inner" role="listbox">
+                              <div class="item active">
+                                  <img src="imgs/slider/foto1.jpg" alt="Imagem foto 1" />
+                              </div>
+                              <div class="item">
+                                  <img src="imgs/slider/foto2.jpg" alt="Imagem foto 2" />
+                              </div>
+                              <div class="item">
+                                  <img src="imgs/slider/foto3.jpg" alt="Imagem foto 3" />
+                              </div>
+                          </div>
+                          
+                          <a class="left carousel-control" href="#sliderprincipal" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                              <span class="sr-only">Anterior</span>
+                          </a>
+                          <a class="right carousel-control" href="#sliderprincipal" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                              <span class="sr-only">Próximo</span>
+                          </a>
+                      </div>
+                   </div> 
+            </div>  
+      </div>
       
       <!-- // slider da aplicação -->
-      
-      <!-- slider da aplicação -->
-      
-      <!-- // slider da aplicação -->
-      
+    
       <!-- serviços -->
-      
+      <section id="servicos">
+            <div class="container">
+                 <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header"><h1>Serviços <small>Conheça o que fazemos</small></h1></div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 servicos-item">
+                        <div><img src="imgs/foto.jpg" class="img-responsive img-circle" /></div>
+                        <h4>E-commerce</h4>
+                        <p>descrição do serviço apresentado, Texto, texto, texto, texto, texto, texto, texto</p>
+                    </div>
+                    
+                    
+                    <div class="col-sm-4 col-md-4 servicos-item">
+                        <div><img src="imgs/foto.jpg" class="img-responsive img-circle" /></div>
+                        <h4>Desenvolvimento de Sites</h4>
+                        <p>descrição do serviço apresentado, Texto, texto, texto, texto, texto, texto, texto</p>
+                    </div>
+                    <div class="col-sm-4 col-md-4 servicos-item">
+                        <div><img src="imgs/foto.jpg" class="img-responsive img-circle" /></div>
+                        <h4>Criação de Layout</h4>
+                        <p>descrição do serviço apresentado, Texto, texto, texto, texto, texto, texto, texto</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <a href="#" class="btn btn-default btn-lg servicos_btn_todos_os_servicos">Clique aqui para ver todos os nossos serviços</a>
+                    </div>
+                </div>    
+                
+            </div>
+      </section>
       <!-- // serviços -->
       
       <!-- portfolio -->
-      
+      <section id="portfolio" class="div_colorida">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header"><h1>Portifolio <small>Conheça nossos trabalhos</small></h1></div>
+                    </div>
+                </div>    
+                
+                <div class="row portfolio_row">
+                    <div class="col-sm-4">
+                        <div class="porfolio_item">
+                            <img src="imgs/foto2.jpg" class="img-responsive grayscale" />
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="porfolio_item">
+                            <img src="imgs/foto2.jpg" class="img-responsive grayscale" />
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="porfolio_item">
+                            <img src="imgs/foto2.jpg" class="img-responsive grayscale" />
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                    
+                </div>    
+                
+                <div class="row portfolio_row">
+                    <div class="col-sm-4">
+                        <div class="porfolio_item">
+                            <img src="imgs/foto2.jpg" class="img-responsive grayscale" />
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="porfolio_item">
+                            <img src="imgs/foto2.jpg" class="img-responsive grayscale" />
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="porfolio_item">
+                            <img src="imgs/foto2.jpg" class="img-responsive grayscale" />
+                            <h4>Nome do cliente</h4>
+                        </div>
+                    </div>
+                    
+                </div>   
+                
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <a href="#" class="btn btn-default btn-lg">Clique aqui para ver todos os nossos clientes</a>
+                    </div>
+                </div>
+            </div>
+      </section>
       <!-- // portfolio -->
       
       <!-- quem somos -->
-      
+      <section id="quemsomos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header"><h1>Quem somos <small>Conheça nossa história</small></h1></div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="col-sm-8">
+                           <h4>Texto sobre a empresa</h4>
+                            <p>Nullam eu vulputate nunc. Suspendisse potenti. Fusce sed malesuada nibh, eu suscipit magna. Donec ut dui in velit faucibus porta. Aenean tristique augue ac fermentum pretium. Vivamus vitae leo et dui vehicula porta ac sed nibh. Ut ut ornare metus. Vestibulum a hendrerit orci, vitae vestibulum libero. Praesent dignissim, ligula sit amet pellentesque.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="imgs/foto.jpg" class="img-responsive img-circle"/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="col-md-4">
+                            <img src="imgs/foto.jpg" class="img-responsive img-circle"/>
+                        </div>
+                        <div class="col-sm-8">
+                           <h4>Missão da empresa</h4>
+                            <p>Sed consequat faucibus ex, a hendrerit arcu interdum ac. Donec a magna vestibulum, maximus odio id, viverra metus. Integer risus dui, laoreet at purus pellentesque, varius vestibulum orci. In hac habitasse platea dictumst. Sed auctor lacinia lobortis. Nullam ipsum orci, dictum id euismod at, venenatis ac dolor. Integer finibus convallis blandit.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header"><h1>Nossa Equipe <small>Conheça nossos colaboradores</small></h1></div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="text-center">
+                            <img src="imgs/funcionarios/func_1.jpg" class="img-responsive img-rounded grayscale" />
+                            <h4>Bill Gates</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="text-center">
+                            <img src="imgs/funcionarios/func_2.jpg" class="img-responsive img-rounded grayscale" />
+                            <h4>Dilma</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="text-center">
+                            <img src="imgs/funcionarios/func_3.jpg" class="img-responsive img-rounded grayscale" />
+                            <h4>Minion</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="text-center">
+                            <img src="imgs/funcionarios/func_4.jpg" class="img-responsive img-rounded grayscale" />
+                            <h4>James Bond</h4>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+      </section>
       <!-- // quem somos -->
       
       <!-- localização -->
-      
+      <section id="localizacao" class="div_colorida">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header"><h1>Localização <small>Veja onde estamos</small></h1></div>
+                    </div>
+                </div>    
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467688.8949511927!2d-46.59529919999996!3d-23.68241239999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1435362947392" width="100%" height="520" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+      </section>
       <!-- // localização -->
       
       <!-- contato -->
-      
+      <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header"><h1>Contato <small>Fale conosco agora mesmo!</small></h1></div>
+                    </div>
+                </div>  
+                
+                <div class="row contato">
+                    <div class="col-xs-12">
+                        <p class="bg-success aviso">Preencha o formulário abaixo para entrar em contato conosco!</p>
+                    </div>
+                </div>    
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        
+                        <form name="frmContato" id="formContato">
+                            <div class="row contato">
+                                <div class="col-md-6">
+                                    
+                                    <div class="form-group">
+                                        <input type="text" class="form-control input-lg" placeholder="Qual seu nome? *" required />
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <input type="email" class="form-control input-lg" placeholder="Qual seu email? *" required />
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control input-lg" placeholder="Qual seu telefone?" />
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <textarea class="form-control input-lg" placeholder="Sua mensagem! *" required></textarea>
+                                </div>
+                            </div>  
+                            
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="alert alert-success">Envio Realizado</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-success btn-lg">Enviar formulário</button>
+                                </div>
+                            </div>    
+                        </form>
+                        
+                    </div>
+                </div>   
+            </div>
+      </section>
       <!-- // contato -->
+      
+      <footer>
+          <div class="container">
+                <div class="row">
+                    <div class="col-sm-10">
+                         Informações gerais sobre a empresa. Endereço, email e etc...
+                    </div>  
+                    <div class="col-sm-2 text-right">
+                         <small>Desenvolvido por:</small><br />
+                        <strong>Devmedia.com</strong>
+                    </div> 
+                </div>
+          </div>      
+         
+      </footer>
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
   </body>
 </html>
