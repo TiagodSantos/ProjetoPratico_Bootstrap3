@@ -1,0 +1,17 @@
+Bootstrap 3 temas
+http://bootswatch.com/
+
+Boostrap 3 resourses plugins
+http://startbootstrap.com/bootstrap-resources/
+http://tutorialzine.com/2013/07/50-must-have-plugins-for-extending-twitter-bootstrap/
+
+Bootstrap 3 notifications
+http://goodybag.github.io/bootstrap-notify/
+http://bootstrap-growl.remabledesigns.com/
+http://sciactive.com/pnotify/
+
+Bootstrap 3 janelas modais
+http://bootboxjs.com/
+        
+Bootstrap 3 datepicker
+http://tarruda.github.io/bootstrap-datetimepicker/

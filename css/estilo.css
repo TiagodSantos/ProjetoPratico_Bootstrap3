@@ -89,3 +89,41 @@ img.grayscale:hover {
     padding-bottom: 15px;
     background: url(../imgs/bgslider.png);
 }
+
+.form-login{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #eee;
+}
+
+.form-login input{
+    margin-bottom: 10px;
+}
+
+.panel{
+    margin-bottom: 2px;
+}
+
+.conteudo_painel{
+    background: white;
+    border-radius: 8px;
+    boder: 1px solid #eee;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.conteudo_painel_int{
+    padding: 12px;
+}
+
+
+[data-notify="progressbar"] {
+	margin-bottom: 0px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 5px;
+}
